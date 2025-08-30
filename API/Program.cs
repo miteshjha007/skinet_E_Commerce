@@ -29,6 +29,9 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(config =>
 });
 
 builder.Services.AddSingleton<ICartServices, CartService>();
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
